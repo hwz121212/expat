@@ -12,12 +12,24 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_test", "1_test", "{13A1D2A9-8E7B-4E18-926D-C17A878415CD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "elements", "test\elements\elements_linux.vcxproj", "{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823} = {764CCA10-E1FE-48B2-A2CC-E628AACD8823}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "outline", "test\outline\outline_linux.vcxproj", "{497BE4DE-2D6F-4A35-B8CE-019982A7E3A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823} = {764CCA10-E1FE-48B2-A2CC-E628AACD8823}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "runtests", "test\tests\runtests_linux.vcxproj", "{B3EAFD3C-3E45-4B8D-85FB-FE1824002CF9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823} = {764CCA10-E1FE-48B2-A2CC-E628AACD8823}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "xmlwf", "test\xmlwf\xmlwf_linux.vcxproj", "{33AE164F-DA8C-4ACE-AC09-CA54B5964433}"
+	ProjectSection(ProjectDependencies) = postProject
+		{764CCA10-E1FE-48B2-A2CC-E628AACD8823} = {764CCA10-E1FE-48B2-A2CC-E628AACD8823}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
